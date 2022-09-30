@@ -1,0 +1,28 @@
+{
+  "name": "token_burn_test_bot",
+  "version": "1.0.0",
+  "description": "This is testing bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start":  "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "token_burn_test_bot"
+  ],
+  "author": "Faizan Azhar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "etherscan-api": "^10.0.0",
+    "node-cron": "^2.0.3",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
